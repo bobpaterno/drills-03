@@ -2,14 +2,18 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title JS++
-    link(rel='stylesheet', href='./css/app.css')
+    title Drill A03
+    link(rel='stylesheet', href='./css/a03.css')
   body
-    h1 JS++
+    h1 Drill A03
+
+    input(type='date' placeholder='Numbers')#date
+    button#go Days From Now
+    #output
 
     script(src='./js/vendor/traceur.js')
     script(src='./js/vendor/experimental.js')
     script(src='./js/vendor/jquery-2.1.0.js')
     script(src='./js/vendor/lodash-2.4.1.js')
     script(src='./js/vendor/moment-2.6.0.js')
-    script(src='./js/es6/main.js')
+    script(src='./js/es6/a03.js')
